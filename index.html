@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/alertas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Irida</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="./assets/img/irida.svg" alt=""></div>
+        <a href="#" class="button"> 
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="paginas">
+            <ul>
+                <li><a href="">Ofertas</a></li>
+                <li><a href="#" id="open">Carrito</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="modal-container" id="modal_container">
+            <div class="modal-chart">
+                    <h3>Carrito</h3>
+                <div class= "shopping-chart"id="shopping-chart">
+                </div>
+                
+                <p class="total">Precio total: $<span id="totalPrice">0</span></p>
+            </div>
+        </div>
+
+        <div class="list" id="product-list">
+        </div>
+    </main>
+    <aside></aside>
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <p class="footer-links">
+                <a href="#">Inicio</a>
+                <a href="#">Envios</a>
+                <a href="#">Metodos de pago</a>
+                <a href="#">Devoluciones</a>
+                <a href="#">Sobre nosotros</a>
+            </p>
+            <p class="footer-company-name">Irida © 2022</p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p>Contactanos</p>
+            <form action="#" method="post">
+                <input type="text" name="email" placeholder="Email">
+                <textarea name="message" placeholder="Mensaje"></textarea>
+                <button class="btn">Enviar</button>
+            </form>
+        </div>
+
+    </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/modal.js"></script>
+    <script src="./assets/js/stock.js"></script>
+    <script src="./assets/js/carrito.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
