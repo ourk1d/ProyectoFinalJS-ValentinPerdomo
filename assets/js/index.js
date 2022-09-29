@@ -1,4 +1,3 @@
-
 /*funcion para renderizar objetos en stock */
 
 const showProducts = (products) => {
