@@ -1,4 +1,15 @@
 /*funcion para renderizar objetos en stock */
+let products = []
+
+
+fetch("https://6334e2f9ea0de5318a0a2ad6.mockapi.io/products")
+.then(response => response.json())
+.then(data => {
+  data.forEach(item => {
+    products.push(item)
+  });
+  showProducts(products);
+})
 
 const showProducts = (products) => {
     const productList = document.getElementById("product-list");
@@ -27,6 +38,3 @@ const showProducts = (products) => {
         }) ;
 }
 
-//llamo a la funcion
-
-showProducts(products)

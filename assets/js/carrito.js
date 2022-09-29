@@ -96,4 +96,6 @@ const emptyChart = () => {
 /*funcion para sumar precio total */
 const total = () => {
 const totalPrice = document.getElementById('totalPrice')
+const navPrice = document.getElementById('navPrice')
+navPrice.innerText = "$" + shoppingChart.reduce((acumulador, item) => acumulador + item.price, 0);
 totalPrice.innerText = shoppingChart.reduce((acumulador, item) => acumulador + item.price, 0);}
