@@ -63,7 +63,7 @@ body {
 }
 
 .fa-shopping-cart:hover {
-    color: #36846b;
+    color: #4D9F54;
 }
 
 .paginas ul {
@@ -148,6 +148,9 @@ body {
 }
 .card .state { 
     width: 150px;
+    box-shadow: 0px 1px 65px -90px rgba(255,241,139,0.75);
+    -webkit-box-shadow: 0px 1px 65px -90px rgba(255,241,139,0.75);
+    -moz-box-shadow: 0px 1px 65px -90px rgba(255,241,139,0.75);
 }
 
 .card-title {
@@ -194,7 +197,7 @@ body {
     transition: .2s ease all;
 }
 .btn:hover {
-    background: #36846b;
+    background: #4D9F54;
 }
 
 .swal2-container {
@@ -268,6 +271,7 @@ body {
     background: #14141463;
     color: #0e0b02;
     font-family: 'Ubuntu Condensed', sans-serif;
+    cursor: pointer;
 
   }
   .boton-eliminar {
