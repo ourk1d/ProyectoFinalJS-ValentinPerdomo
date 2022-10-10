@@ -96,7 +96,7 @@ body {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    margin: 150px 0px 50px 0px;
+    margin: 50px 0px 50px 0px;
     width: 100%;
 }
 
@@ -122,6 +122,9 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+
+
 
 /*Tarjetas*/
 
@@ -205,6 +208,23 @@ body {
 }
 
 
+.right {
+    position: relative;
+    text-align: center;
+    position: right;
+    width: 80px;
+    border: none;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 5px;
+    color: #0e0b02;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 8px 16px;
+    text-align: center;
+    float: right;
+}
 
 
 /* Modal */
@@ -526,4 +546,7 @@ width: 30%;
 	.footer-distributed form button{
 		float: none;
 	}
+}
+.banner {
+    width: 100%;        
 }
