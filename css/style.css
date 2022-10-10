@@ -24,11 +24,8 @@ main {
 body {
     margin: 0;
     padding: 0;
-    background-color:#727070 ;
-    background-image:url(https://st2.depositphotos.com/3423429/9802/v/950/depositphotos_98025388-stock-illustration-hand-drawn-doodle-set-with.jpg);
+    background-color:#c9c9c957 ;
 }
-
-
 
 /*Navbar*/
 .navbar {
@@ -92,11 +89,39 @@ body {
     color: #d6715fda;
 }
 
+.ordenar {
+    margin: 10px 40px 0px 40px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.ordenar li {
+    margin-right: 10px;
+    
+}
+
+.ordenar li a {
+    text-decoration: none;
+    color: #0e0b02;
+    
+}
+
+.ordenar li a:hover {
+    text-decoration: none;
+    color: #4D9F54;
+    cursor: pointer;
+}
+
+
 .list {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    margin: 50px 0px 50px 0px;
+    margin: 0px 0px 50px 0px;
     width: 100%;
 }
 
